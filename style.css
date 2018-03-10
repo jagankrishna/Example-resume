@@ -1,0 +1,125 @@
+
+.mainDiv{
+
+  background:red;
+  display:flex;
+  justify-content: space-between;
+
+}
+.leftDiv{
+  text-align: center;
+background:violet;
+width:29.4%;
+height:auto;
+position:fixed;
+margin-top: 1%;
+border-radius: 20px;
+  margin:0;
+
+}
+.rightDiv{
+  margin-left: 30%;
+  float:right;
+
+  width:70%;
+  background:SlateBlue;
+
+}
+
+
+.image1{
+  margin-top: 2%;
+  width: 50%;
+  border-radius: 20%;
+  padding: 13px;
+}
+table{
+  width: 100%;
+  border: 2px solid black;
+}
+
+th{
+  width:25%;
+  border: 2px solid black;
+}
+
+ td{
+   width: 25%;
+   border: 2px solid black;
+ }
+ tr{
+
+   border: 2px solid black;
+ }
+
+@media all and (max-width:750px){
+  table{
+    width: 100%;
+    border: 1px solid black;
+  }
+   th{
+     width: 100%;
+     border: 1px solid black;
+     }
+    td{
+      width: 100%;
+      border: 1px solid black;
+    }
+    tr{
+
+      border: 1px solid black;
+    }
+    .leftDiv{
+      text-align: center;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5%;
+      background: yellow;
+      position: relative;
+
+    }
+
+
+    .rightDiv{
+      /*margin-top: 1%;*/
+      margin-left: auto;
+      float: none;
+      width: 100%;
+      background: cyan;
+       position: relative;
+    }
+  }
+
+
+
+@media only screen and (max-width:768px) and (min-width: 470px){
+  .mainDiv{
+    width: 100%;
+    background: DodgerBlue ;
+    flex-wrap: wrap;
+  }
+
+  .leftDiv{
+    text-align: center;
+    background: MediumSeaGreen ;
+    width: 100%;
+    position: relative;
+    /* height: auto; */
+    margin-bottom: 5%;
+
+  }
+
+  /*.ichidi{
+    width: 50%;
+    float: left;
+  }*/
+
+  .rightDiv{
+    /* margin-top: 25em; */
+    float:none;
+    width: 100%;
+    background: lime ;
+
+  }
+
+}
